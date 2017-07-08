@@ -1,0 +1,55 @@
+svg {
+	overflow-x:auto;
+	overflow-y:auto;
+}
+.background {
+	opacity:1;
+	fill:#ffffff;
+	fill-opacity:1;
+	stroke:none;
+	stroke-width:7;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+.header1 {
+	font-weight:bold;
+	font-size:56px;
+	font-family:arial;
+	text-align:center;
+	text-anchor:middle;
+	fill:#808080;
+}
+.header2 {
+	font-weight:bold;
+	font-size:18px;
+	font-family:arial;
+	text-align:center;
+	text-anchor:middle;
+	fill:#686868;
+}
+.header3 {
+	font-size:11px;
+	font-family:arial;
+	text-align:center;
+	text-anchor:middle;
+	fill:#909090;
+}
+.weekDay {
+	font-size:14px;
+	font-family:arial;
+	text-align:center;
+	text-anchor:middle;
+}
+.weekDayWrongMonth {
+	fill:rgba(60,80,60,0.4);
+}
+.weekDayWeekEnd {
+	fill:rgba(60,80,60,0.6);
+}
+.weekDayWeekDay {
+	fill:rgba(0,0,0,1);
+}
